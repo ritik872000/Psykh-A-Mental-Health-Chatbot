@@ -1,0 +1,280 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Home</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="{% static 'img/chatbot.png' %}" rel="icon">
+
+
+    <!-- Google Fonts -->
+    <!-- Google Fonts -->
+
+    <!-- Vendor CSS Files -->
+    <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+    <link href="{% static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+    <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+    <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %} " rel="stylesheet">
+
+
+    <!-- Template Main CSS File -->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: Techie - v4.1.0
+  * Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top ">
+        <div class="container d-flex align-items-center justify-content-between">
+            <h1 class="logo"><a href="{% static 'index.html' %}">Psykh</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo"><img 
+                
+                src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+
+                    <li><a class="nav-link scrollto" href="#services">Features</a></li>
+                    <li><a class="nav-link scrollto" href="#blogs">Blogs</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+
+
+                    <li><a class="getstarted scrollto" href="/chatroom">Chat with Psykh</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+
+        <div class="container-fluid" data-aos="fade-up">
+            <div class="row justify-content-center">
+                <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                    <h1>Psykh</h1>
+                    <h2>Mental Health Chatbot</h2>
+                    <div><a href="{% url 'chatroom' %}" class="btn-get-started scrollto">Chat with Psykh</a></div>
+                </div>
+                <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
+                    <img src="{% static 'img/chatbot.png' %}" class="img-fluid animated" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+
+
+
+
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Features</h2>
+
+                </div>
+
+                <div class="row gy-4">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="icon-box iconbox-blue">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                </svg>
+                                <i class="bx bxl-dribbble"></i>
+                            </div>
+                            <h4><a href="">Mood Enhancement</a></h4>
+                            <p>Psykh has unique set of conversation stories which helps in enhancing mood.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="icon-box iconbox-orange ">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
+                </svg>
+                                <i class="bx bx-file"></i>
+                            </div>
+                            <h4><a href="">Suggestions</a></h4>
+                            <p>Psykh has a built in set of suggestions for user to serve whenever the user is not feeling good.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="icon-box iconbox-pink">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
+                </svg>
+                                <i class="bx bx-tachometer"></i>
+                            </div>
+                            <h4><a href="">Storage and Analysis</a></h4>
+                            <p>This feature can be used to track users condition as well as store things which user likes the most. </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ======= blogs Section ======= -->
+        <section id="blogs">
+            <div class="container" data-aos="fade-up">
+
+
+                <div class="section-title">
+                    <h2>Blogs</h2>
+                </div>
+                <div class="row gy-4">
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch bg-image " data-aos="zoom-in" data-aos-delay="300">
+                        <a href='https://blog.heartsupport.com/mental-illness-is-not-a-personal-failure-612a3a03894a'>
+                            <div class="hvrbox">
+                                <img class='blog1 img-fluid' src="{% static 'img/blog 1.jpg' %}">
+                                <div class="hvrbox-layer_top">
+                                    <div class="hvrbox-text">Click to read full article</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
+                        <a href='https://www.statnews.com/2017/05/31/mental-health-medicine/'>
+                            <div class="hvrbox">
+                                <img class='blog2 img-fluid' src="{% static 'img/blog 2.jpg' %}">
+                                <div class="hvrbox-layer_top">
+                                    <div class="hvrbox-text">Click to read full article</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
+                        <a href='https://milliecaffull.medium.com/the-mental-health-recovery-paradox-aa0cb4aa1974'>
+                            <div class="hvrbox">
+                                <img class='blog3 img-fluid' src="{% static 'img/blog 3.jpg' %}">
+                                <div class="hvrbox-layer_top">
+                                    <div class="hvrbox-text">Click to read full article</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </section>
+
+        <!-- blogs Hero -->
+
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-title">
+                    <h2>About</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
+                        <img src="{% static 'img/about.png' %}" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+
+                        <p class="fst-italic">
+                            Mental disorders are usually treated by pharmacotherapy or psychotherapy. However, there is a global shortage of human resources for delivering such mental health services. In developed countries there are nine psychiatrists per 100,000 people available,
+                            while in developing countries there is one psychiatrist per ten million people.<br> <br>To address this problem, conversational agents have arisen interest in recent years, particularly in psychoeducation,behaviour
+                            change and self-help. Psykh is a rasa based conversational chatbot developed with help of cognitive behavioural therapy with a view of helping people tackle their daily mental issues.Psykh helps user to deal with issues such
+                            as Anxiety, Depression, getting rid of sad thoughts, etc. <br><br> Psykh uses natural language understanding to converse with user. It also maintain a journal to track the progress of users condition. Psykh also provides the
+                            user with comfort and suggestion for dealing with the issues they are facing.
+                        </p>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End About Section -->
+
+
+
+
+        <!-- Vendor JS Files -->
+        <script src="{% static 'vendor/aos/aos.js' %}"></script>
+        <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+        <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+        <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+        <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+
+        <!-- Template Main JS File -->
+        <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
+</div>
+
+</div>
+</section>
+<!-- End About Section -->
+
+
+<!-- start  footer Section -->
+<footer>
+    <div class="footer">
+        <p>Made by Aniket, Vishwesh and Ritik with ❤️</p>
+    </div>
+</footer>
+<!-- End footer Section -->
+
+
+
+<!-- Vendor JS Files -->
+<script src="{% static 'vendor/aos/aos.js' %}"></script>
+<script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+<script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+<script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+
+<!-- Template Main JS File -->
+<script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>Chat</title>
+    <meta charset="utf-8" />
+    <link href="{% static 'img/chatbot.png' %}" rel="icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.css" />
+    <style>
+        /* --------------------------chatbox---------------------------------- */
+        /* .chatroom {
+            background-color: white;
+        } */
+        
+        .chatroom .input {
+            border-color: #0F256E;
+        }
+        
+        body {
+            background-color: #0F256E;
+            height: 640px;
+        }
+        
+        * {
+            font-family: "Open Sans", Helvetica, "Helvetica Neue", sans-serif;
+            box-sizing: border-box;
+        }
+        
+        .chat-container {
+            margin: 100px auto;
+            width: 360px;
+            z-index: 100;
+        }
+        
+        @media (max-width: 400px) {
+            .chat-container {
+                margin: 20px 10px;
+                width: auto;
+            }
+        }
+        
+        .chat-demo-button:hover {
+            background-color: rgba(52, 61, 78, 0.3);
+        }
+        
+        .chat-demo-button:active {
+            background-color: rgba(52, 61, 78, 0.8);
+        }
+        
+        .chatroom h3 {
+            background-color: #0F256E;
+        }
+        
+        .chatroom .input input[type=submit] {
+            background-color: #0F256E;
+        }
+        
+        .chatroom #speech-input {
+            background-color: #0F256E;
+        }
+        
+        .chatroom .input {
+            background-color: #0F256E;
+        }
+        
+        .chatroom .chats {
+            box-sizing: border-box;
+            background-color: #0F256E;
+        }
+        
+        .chatroom .chats .time.left {
+            color: white;
+            float: left;
+        }
+        
+        .chatroom .chats .chat {
+            background-color: #81b214;
+            color: black;
+        }
+        
+        .chatroom .chats .time.right {
+            color: white;
+            float: right;
+        }
+        
+        .chatroom .chats .chat.right {
+            float: right;
+            clear: both;
+            border-bottom-right-radius: 0;
+            background-color: #66CCFF;
+        }
+        
+        .bot {
+            margin-left: 250px;
+            margin-top: 97px;
+        }
+        
+        .human {
+            margin-right: 250px;
+            margin-top: 97px;
+        }
+        
+        @media (max-width: 400px) {
+            .bot {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 400px) {
+            .human {
+                display: none;
+            }
+        }
+        /* --------------------------chatbox---------------------------------- */
+    </style>
+</head>
+
+<body>
+
+
+    <!-- --Chatroom-- -->
+
+    <img class='bot' src="{% static 'img/bot.png' %}" align='left'>
+    <img class='human' src="{% static 'img/human.png' %}" align='right'>
+    <div class="chat-container"></div>
+
+    <script src="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.js" /></script>
+    <script type="text/javascript">
+        window.chatroom = new window.Chatroom({
+            host: "http://localhost:5005",
+            title: "Chat with Psykh",
+            container: document.querySelector(".chat-container"),
+            welcomeMessage: "Hi, I am Psykh. How may I help you?",
+            speechRecognition: "en-US",
+            voiceLang: "en-US"
+        });
+        chatroom.openChat();
+        // <!-- --Chatroom-- -->
+    </script>
+</body>
+
+</html>
