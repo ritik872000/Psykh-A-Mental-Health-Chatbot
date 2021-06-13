@@ -18,12 +18,12 @@
 ## Model Comparison
 
 ### 1. Intent Classification Accuracy Comparison
-![About](https://github.com/ritik872000/Psykh-A-Mental-Health-Chatbot/blob/main/Project-Screenshots/Intent Results.png)
+![About](https://github.com/ritik872000/Psykh-A-Mental-Health-Chatbot/blob/main/Project-Screenshots/Intent%20Results.png)
 
 DIET classifier gives higher accuracy on test set compared to SVM but in terms of speed SVM outperforms DIET that is why we've used SVM.
 
 ### 2. Entity Classification Accuracy Comparison
-![About](https://github.com/ritik872000/Psykh-A-Mental-Health-Chatbot/blob/main/Project-Screenshots/Entity Results.png)
+![About](https://github.com/ritik872000/Psykh-A-Mental-Health-Chatbot/blob/main/Project-Screenshots/Entity%20Results.png)
 
 ## Dataset Information
 
