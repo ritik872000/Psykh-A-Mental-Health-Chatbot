@@ -1,0 +1,39 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+
+language: en
+pipeline:
+  - name: "SpacyNLP"
+    model: en_core_web_md
+  - name: "SpacyTokenizer"
+  - name: "SpacyFeaturizer"
+  - name: "SklearnIntentClassifier"
+    C: [0.001, 0.10, 0.1, 10, 25, 50, 100, 1000]
+    # Specifies the kernel to use with C-SVM.
+    # This is used with the ``C`` hyperparameter in GridSearchCV.
+    kernels: ["linear", "rbf"]
+    # Gamma parameter of the C-SVM.
+    "gamma": [1, 0.1, 0.01, 0.001, 0.0001]
+    # We try to find a good number of cross folds to use during
+    # intent training, this specifies the max number of folds.
+    "max_cross_validation_folds": 5
+    # Scoring function used for evaluating the hyper parameters.
+    # This can be a name or a function.
+    "scoring_function": "f1_weighted"
+  - name: "CRFEntityExtractor"
+
+  - name: "EntitySynonymMapper"
+  
+    
+
+    
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  - name: MemoizationPolicy
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 100
+  - name: RulePolicy
+  

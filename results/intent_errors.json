@@ -1,0 +1,1338 @@
+[
+  {
+    "text": "ritik",
+    "intent": "give_name",
+    "intent_prediction": {
+      "name": "proj_tension",
+      "confidence": 0.13961691480296323
+    }
+  },
+  {
+    "text": "meaningful work",
+    "intent": "delight",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.2430345739653026
+    }
+  },
+  {
+    "text": "family",
+    "intent": "delight",
+    "intent_prediction": {
+      "name": "leveltwo",
+      "confidence": 0.40352079273206265
+    }
+  },
+  {
+    "text": "giving to others",
+    "intent": "delight",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.28276399809667857
+    }
+  },
+  {
+    "text": "goodbye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.13435237254742613
+    }
+  },
+  {
+    "text": "Good night!",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.22355309644559582
+    }
+  },
+  {
+    "text": "sure",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.13434525655882518
+    }
+  },
+  {
+    "text": "for sure",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.15422808680860714
+    }
+  },
+  {
+    "text": "very good",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "positive_response",
+      "confidence": 0.41500588886360507
+    }
+  },
+  {
+    "text": "worse than ever",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "reason_depressed",
+      "confidence": 0.18654330066200475
+    }
+  },
+  {
+    "text": "poor communication",
+    "intent": "work_problems",
+    "intent_prediction": {
+      "name": "proj_tension",
+      "confidence": 0.30024874917677175
+    }
+  },
+  {
+    "text": "Harassment",
+    "intent": "work_problems",
+    "intent_prediction": {
+      "name": "leveltwo",
+      "confidence": 0.2188578241505449
+    }
+  },
+  {
+    "text": "Discrimination",
+    "intent": "work_problems",
+    "intent_prediction": {
+      "name": "leveltwo",
+      "confidence": 0.17935155925258844
+    }
+  },
+  {
+    "text": "Difficulty concentrating or making decisions",
+    "intent": "stress",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.3870719940687313
+    }
+  },
+  {
+    "text": "Stomach problems",
+    "intent": "stress",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.30065934884874485
+    }
+  },
+  {
+    "text": "I'm bored out of my mind",
+    "intent": "boring",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.23977336420681444
+    }
+  },
+  {
+    "text": "Multitasking",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "proj_tension",
+      "confidence": 0.21627565741891777
+    }
+  },
+  {
+    "text": "Tired",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.16647891992054353
+    }
+  },
+  {
+    "text": "Not comfortable with what I am doing",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.14662833733915576
+    }
+  },
+  {
+    "text": "Weather is making me feel down, low",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.1907992339624373
+    }
+  },
+  {
+    "text": "making careless mistakes",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "proj_tension",
+      "confidence": 0.3364296849474597
+    }
+  },
+  {
+    "text": "I am distracted by",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.2735338553234586
+    }
+  },
+  {
+    "text": "I cannot make myself calm down",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.23022974945584973
+    }
+  },
+  {
+    "text": "Suffering from mental issues",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "leveltwo",
+      "confidence": 0.2526302650073163
+    }
+  },
+  {
+    "text": "Improper diet",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "proj_tension",
+      "confidence": 0.31331357581131314
+    }
+  },
+  {
+    "text": "No excercise",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.33351011810899606
+    }
+  },
+  {
+    "text": "Excess thought process",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "proj_tension",
+      "confidence": 0.6809156441876115
+    }
+  },
+  {
+    "text": "ha",
+    "intent": "positive_response",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.18208132992036546
+    }
+  },
+  {
+    "text": "I'm depressed",
+    "intent": "depressed",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.469941744689139
+    }
+  },
+  {
+    "text": "I feel sad and lonely",
+    "intent": "mood_solitude",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.36192280930507204
+    }
+  },
+  {
+    "text": "nice video ....thanks",
+    "intent": "gratitude",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.22884332319975104
+    }
+  },
+  {
+    "text": "simple problems",
+    "intent": "levelone",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.2911875932709582
+    }
+  },
+  {
+    "text": "daily problems",
+    "intent": "levelone",
+    "intent_prediction": {
+      "name": "leveltwo",
+      "confidence": 0.19257698764185133
+    }
+  },
+  {
+    "text": "low on money",
+    "intent": "leveltwo",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.2068973712117048
+    }
+  },
+  {
+    "text": "competition related stress or worries",
+    "intent": "leveltwo",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.2679333107008728
+    }
+  },
+  {
+    "text": "surrounding environment matters stressing me out",
+    "intent": "levelthree",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.37921426122625257
+    }
+  },
+  {
+    "text": "low on confidence at any place",
+    "intent": "levelthree",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.3085273947517838
+    }
+  },
+  {
+    "text": "going on a walk",
+    "intent": "delight",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.3562285793237015
+    }
+  },
+  {
+    "text": "have a good one",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.1281301952758042
+    }
+  },
+  {
+    "text": "why not",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.2373919665807149
+    }
+  },
+  {
+    "text": "no way",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.1838387877763449
+    }
+  },
+  {
+    "text": "I am feeling very good",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.279073942295405
+    }
+  },
+  {
+    "text": "I am in terrible mood right now",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.22939162591864176
+    }
+  },
+  {
+    "text": "I have a lot of work to do",
+    "intent": "work_problems",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.1965225718828514
+    }
+  },
+  {
+    "text": "Low motivation and job satisfaction",
+    "intent": "work_problems",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.355041457112407
+    }
+  },
+  {
+    "text": "going through a tough time",
+    "intent": "stress",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.22069692945895703
+    }
+  },
+  {
+    "text": "I am bored at work",
+    "intent": "boring",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.2310049114267113
+    }
+  },
+  {
+    "text": "Search for reasons to give up",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "delight",
+      "confidence": 0.1564963932667833
+    }
+  },
+  {
+    "text": "Hectic day",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "levelone",
+      "confidence": 0.2685032504578556
+    }
+  },
+  {
+    "text": "Improper sleeping routine",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.6719205042292894
+    }
+  },
+  {
+    "text": "Time Management Issues",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "proj_tension",
+      "confidence": 0.2583215666082931
+    }
+  },
+  {
+    "text": "Unwanted problems",
+    "intent": "proj_tension",
+    "intent_prediction": {
+      "name": "levelone",
+      "confidence": 0.22461415328071935
+    }
+  },
+  {
+    "text": "Did not considered this kind of risk",
+    "intent": "proj_tension",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.2279641277952889
+    }
+  },
+  {
+    "text": "Psychological reasons",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.3585754484184016
+    }
+  },
+  {
+    "text": "Body pain",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "stress",
+      "confidence": 0.3447557723703893
+    }
+  },
+  {
+    "text": "Lack of physical tiredness",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.5883858257638617
+    }
+  },
+  {
+    "text": "I'm not myself these days",
+    "intent": "depressed",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.18652259814294636
+    }
+  },
+  {
+    "text": "deadlines of work",
+    "intent": "levelone",
+    "intent_prediction": {
+      "name": "proj_tension",
+      "confidence": 0.41787604827430364
+    }
+  },
+  {
+    "text": "submissions",
+    "intent": "levelone",
+    "intent_prediction": {
+      "name": "proj_tension",
+      "confidence": 0.30420456284689235
+    }
+  },
+  {
+    "text": "sensitive  issues",
+    "intent": "leveltwo",
+    "intent_prediction": {
+      "name": "work_problems",
+      "confidence": 0.1810484081212359
+    }
+  },
+  {
+    "text": "fight with partner",
+    "intent": "leveltwo",
+    "intent_prediction": {
+      "name": "delight",
+      "confidence": 0.15216132030302568
+    }
+  },
+  {
+    "text": "health issues",
+    "intent": "levelthree",
+    "intent_prediction": {
+      "name": "leveltwo",
+      "confidence": 0.2475681833823783
+    }
+  },
+  {
+    "text": "i am not getting a job",
+    "intent": "levelthree",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.23290241266268732
+    }
+  },
+  {
+    "text": "fear of new changes",
+    "intent": "levelthree",
+    "intent_prediction": {
+      "name": "proj_tension",
+      "confidence": 0.4146579432475604
+    }
+  },
+  {
+    "text": "good evening",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.16762307673943386
+    }
+  },
+  {
+    "text": "you can call me apoorva",
+    "intent": "give_name",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.14450773199887382
+    }
+  },
+  {
+    "text": "i gotta take off",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "boring",
+      "confidence": 0.1332814691411777
+    }
+  },
+  {
+    "text": "keep in touch",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.2997628094323118
+    }
+  },
+  {
+    "text": "I don't think so",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.18916771065912447
+    }
+  },
+  {
+    "text": "I dont know if I can finish this or not",
+    "intent": "family_problems",
+    "intent_prediction": {
+      "name": "boring",
+      "confidence": 0.1662763765860691
+    }
+  },
+  {
+    "text": "My parent are fighting",
+    "intent": "family_problems",
+    "intent_prediction": {
+      "name": "reason_depressed",
+      "confidence": 0.11935105226345513
+    }
+  },
+  {
+    "text": "exams are coming",
+    "intent": "work_problems",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.16587086812995352
+    }
+  },
+  {
+    "text": "Performance issues",
+    "intent": "work_problems",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.33754406342829235
+    }
+  },
+  {
+    "text": "Poor job fit",
+    "intent": "work_problems",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.15404840270229814
+    }
+  },
+  {
+    "text": "Depression",
+    "intent": "stress",
+    "intent_prediction": {
+      "name": "reason_depressed",
+      "confidence": 0.6632845172694147
+    }
+  },
+  {
+    "text": "Heart palpitations",
+    "intent": "stress",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.5160959482380971
+    }
+  },
+  {
+    "text": "I could die from boredom",
+    "intent": "boring",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.3436385339952423
+    }
+  },
+  {
+    "text": "I can't think of anything I want to do",
+    "intent": "boring",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.27123880411164686
+    }
+  },
+  {
+    "text": "I can't help but be bored",
+    "intent": "boring",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.2223145767197477
+    }
+  },
+  {
+    "text": "Why should i study",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.19511958820465877
+    }
+  },
+  {
+    "text": "Poor job satisfaction",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "work_problems",
+      "confidence": 0.18195549516873719
+    }
+  },
+  {
+    "text": "lacking physical or mental energy to concentrate",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.3062751942386722
+    }
+  },
+  {
+    "text": "Fear of deadlines",
+    "intent": "proj_tension",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.27132848816292743
+    }
+  },
+  {
+    "text": "Pressure to meet the requirements within time",
+    "intent": "proj_tension",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.21955784424107
+    }
+  },
+  {
+    "text": "associated with sugary drinks",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "leveltwo",
+      "confidence": 0.15549289503300806
+    }
+  },
+  {
+    "text": "Poor sleep quality",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.29848906475317877
+    }
+  },
+  {
+    "text": "a sleeping environment that is noisy or not the right temperature",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.19681895850618644
+    }
+  },
+  {
+    "text": "using electronic devices close to bedtime or keeping them in the bedroom",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.21925643228687666
+    }
+  },
+  {
+    "text": "Too much work load",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "family_problems",
+      "confidence": 0.16708576877710743
+    }
+  },
+  {
+    "text": "I feel horrible",
+    "intent": "depressed",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.45008940951451304
+    }
+  },
+  {
+    "text": "I am alone",
+    "intent": "mood_solitude",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.2259808632253965
+    }
+  },
+  {
+    "text": "Thank you so much for being there",
+    "intent": "gratitude",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.11360674151121432
+    }
+  },
+  {
+    "text": "thank you for being there",
+    "intent": "gratitude",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.10406755354244636
+    }
+  },
+  {
+    "text": "day to day issues",
+    "intent": "levelone",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.2671248496000507
+    }
+  },
+  {
+    "text": "pets causing trouble",
+    "intent": "levelone",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.3081471377039989
+    }
+  },
+  {
+    "text": "relational clashes",
+    "intent": "leveltwo",
+    "intent_prediction": {
+      "name": "proj_tension",
+      "confidence": 0.643846906577527
+    }
+  },
+  {
+    "text": "people talking behind back",
+    "intent": "leveltwo",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.18579348024397402
+    }
+  },
+  {
+    "text": "work related issues",
+    "intent": "levelthree",
+    "intent_prediction": {
+      "name": "leveltwo",
+      "confidence": 0.2020833721397046
+    }
+  },
+  {
+    "text": "scared of life changing situtions",
+    "intent": "levelthree",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.16370606305264065
+    }
+  },
+  {
+    "text": "no self confidence",
+    "intent": "levelthree",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.17259681420896902
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.19664551413995884
+    }
+  },
+  {
+    "text": "positive thinking",
+    "intent": "delight",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.20104444811512337
+    }
+  },
+  {
+    "text": "Not at all",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.19569267575745888
+    }
+  },
+  {
+    "text": "I said that i'm happy but actually i'm not happy",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.26042219648093856
+    }
+  },
+  {
+    "text": "I have not studied enough",
+    "intent": "work_problems",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.2195746380197085
+    }
+  },
+  {
+    "text": "So many assignments to do",
+    "intent": "work_problems",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.38951355033991564
+    }
+  },
+  {
+    "text": "Interpersonal conflict",
+    "intent": "work_problems",
+    "intent_prediction": {
+      "name": "leveltwo",
+      "confidence": 0.5327912523586985
+    }
+  },
+  {
+    "text": "Mood swings",
+    "intent": "stress",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.19461717564008382
+    }
+  },
+  {
+    "text": "What's the point of studying",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "proj_tension",
+      "confidence": 0.19696751449827682
+    }
+  },
+  {
+    "text": "Lack of sleep",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.6952970530409607
+    }
+  },
+  {
+    "text": "Lack of motivation",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "proj_tension",
+      "confidence": 0.39354445267767796
+    }
+  },
+  {
+    "text": "Change in surrounding at workplace",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "levelthree",
+      "confidence": 0.23970046001640627
+    }
+  },
+  {
+    "text": "lack of focus",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "proj_tension",
+      "confidence": 0.44410832284304264
+    }
+  },
+  {
+    "text": "cannot focus on an empty stomach",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.33465244959608953
+    }
+  },
+  {
+    "text": "unusual feelings of tiredness",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.43547881672481314
+    }
+  },
+  {
+    "text": "Physical issues",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "leveltwo",
+      "confidence": 0.18698722882121657
+    }
+  },
+  {
+    "text": "My project is really hard",
+    "intent": "proj_tension",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.1748649427342068
+    }
+  },
+  {
+    "text": "Risk factors",
+    "intent": "proj_tension",
+    "intent_prediction": {
+      "name": "leveltwo",
+      "confidence": 0.34182150578736775
+    }
+  },
+  {
+    "text": "Something is on my mind",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.2587841464218837
+    }
+  },
+  {
+    "text": "Something is bothering me",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.28308277696085404
+    }
+  },
+  {
+    "text": "I keep on thinking on random things",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.29133412657882446
+    }
+  },
+  {
+    "text": "I have some medical issues",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "work_problems",
+      "confidence": 0.16563105047794519
+    }
+  },
+  {
+    "text": "Work and study commitments",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "proj_tension",
+      "confidence": 0.2031604417714682
+    }
+  },
+  {
+    "text": "i liked it",
+    "intent": "positive_response",
+    "intent_prediction": {
+      "name": "boring",
+      "confidence": 0.20225486083067973
+    }
+  },
+  {
+    "text": "good",
+    "intent": "positive_response",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.36332587464057575
+    }
+  },
+  {
+    "text": "I don't feel happy",
+    "intent": "depressed",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.19541199554865343
+    }
+  },
+  {
+    "text": "I feel lonelyyyy",
+    "intent": "mood_solitude",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.25709808116647936
+    }
+  },
+  {
+    "text": "thats fine..thank you",
+    "intent": "gratitude",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.15310168993913534
+    }
+  },
+  {
+    "text": "little to low stressing events",
+    "intent": "levelone",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.22644264689948906
+    }
+  },
+  {
+    "text": "neighbours",
+    "intent": "levelone",
+    "intent_prediction": {
+      "name": "leveltwo",
+      "confidence": 0.18134455573417138
+    }
+  },
+  {
+    "text": "family quarallels",
+    "intent": "leveltwo",
+    "intent_prediction": {
+      "name": "delight",
+      "confidence": 0.5145034266845218
+    }
+  },
+  {
+    "text": "social disturbance in life",
+    "intent": "leveltwo",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.23916231236782107
+    }
+  },
+  {
+    "text": "changes in life work habits",
+    "intent": "levelthree",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.4168908014451559
+    }
+  },
+  {
+    "text": "stage fear",
+    "intent": "levelthree",
+    "intent_prediction": {
+      "name": "leveltwo",
+      "confidence": 0.20922843299243224
+    }
+  },
+  {
+    "text": "hey there",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.10761926331891691
+    }
+  },
+  {
+    "text": "watching movies",
+    "intent": "delight",
+    "intent_prediction": {
+      "name": "boring",
+      "confidence": 0.12542760813345405
+    }
+  },
+  {
+    "text": "spending time with my bestfriend",
+    "intent": "delight",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.30029168420847224
+    }
+  },
+  {
+    "text": "Imm off",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.24457810685417006
+    }
+  },
+  {
+    "text": "don't like that",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.3158109747038552
+    }
+  },
+  {
+    "text": "Too much work",
+    "intent": "family_problems",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.2372177173958562
+    }
+  },
+  {
+    "text": "conflicting styles",
+    "intent": "work_problems",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.27094496840882903
+    }
+  },
+  {
+    "text": "Gossip",
+    "intent": "work_problems",
+    "intent_prediction": {
+      "name": "leveltwo",
+      "confidence": 0.25711676945987527
+    }
+  },
+  {
+    "text": "Bullying",
+    "intent": "work_problems",
+    "intent_prediction": {
+      "name": "leveltwo",
+      "confidence": 0.26801392247672495
+    }
+  },
+  {
+    "text": "i am stressed",
+    "intent": "stress",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.24502568052400908
+    }
+  },
+  {
+    "text": "Muscle tension and pain",
+    "intent": "stress",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.3357483982342278
+    }
+  },
+  {
+    "text": "I have nothing to do",
+    "intent": "boring",
+    "intent_prediction": {
+      "name": "family_problems",
+      "confidence": 0.16818475726690815
+    }
+  },
+  {
+    "text": "I dont know what to do",
+    "intent": "boring",
+    "intent_prediction": {
+      "name": "family_problems",
+      "confidence": 0.22464264417316385
+    }
+  },
+  {
+    "text": "It's been a boring week",
+    "intent": "boring",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.13253944163563375
+    }
+  },
+  {
+    "text": "too much to deal with on my plate",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.2288971155189546
+    }
+  },
+  {
+    "text": "I want to distract myself",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.20437913750285014
+    }
+  },
+  {
+    "text": "I cannot manage time",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "family_problems",
+      "confidence": 0.16992804371073206
+    }
+  },
+  {
+    "text": "Something is on my mind",
+    "intent": "cant_focus",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.3804876538574807
+    }
+  },
+  {
+    "text": "I dont know how to do my project",
+    "intent": "proj_tension",
+    "intent_prediction": {
+      "name": "family_problems",
+      "confidence": 0.2326765664460959
+    }
+  },
+  {
+    "text": "Last moment client changes",
+    "intent": "proj_tension",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.3263043134424343
+    }
+  },
+  {
+    "text": "I did not had my dinner",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "family_problems",
+      "confidence": 0.19820936247357757
+    }
+  },
+  {
+    "text": "meeting deadlines",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "proj_tension",
+      "confidence": 0.21982542368938368
+    }
+  },
+  {
+    "text": "Worried about someone",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.23248722786790463
+    }
+  },
+  {
+    "text": "I am sad",
+    "intent": "just_couldn't sleep",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5842968647951299
+    }
+  },
+  {
+    "text": "so funny",
+    "intent": "positive_response",
+    "intent_prediction": {
+      "name": "boring",
+      "confidence": 0.3043507884694125
+    }
+  },
+  {
+    "text": "I'm not myself today",
+    "intent": "depressed",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.22566276797607593
+    }
+  },
+  {
+    "text": "i m lone",
+    "intent": "mood_solitude",
+    "intent_prediction": {
+      "name": "boring",
+      "confidence": 0.11077036757150217
+    }
+  },
+  {
+    "text": "time management",
+    "intent": "levelone",
+    "intent_prediction": {
+      "name": "proj_tension",
+      "confidence": 0.6754894010515257
+    }
+  },
+  {
+    "text": "exams are near",
+    "intent": "levelone",
+    "intent_prediction": {
+      "name": "work_problems",
+      "confidence": 0.3262212877018614
+    }
+  },
+  {
+    "text": "relationships",
+    "intent": "leveltwo",
+    "intent_prediction": {
+      "name": "work_problems",
+      "confidence": 0.4984967188951147
+    }
+  },
+  {
+    "text": "daily issues with pressing matters",
+    "intent": "leveltwo",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.2615763810030018
+    }
+  },
+  {
+    "text": "health is not good",
+    "intent": "levelthree",
+    "intent_prediction": {
+      "name": "cant_focus",
+      "confidence": 0.15373518458734053
+    }
+  },
+  {
+    "text": "whole family depends on me",
+    "intent": "levelthree",
+    "intent_prediction": {
+      "name": "just_couldn't sleep",
+      "confidence": 0.2605536939836594
+    }
+  }
+]

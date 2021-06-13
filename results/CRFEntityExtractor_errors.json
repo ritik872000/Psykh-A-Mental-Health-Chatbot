@@ -1,0 +1,698 @@
+[
+  {
+    "text": "hello",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "hello",
+        "entity": "greet"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tanay",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "tanay",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "radhika",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "radhika",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "sure",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "sure",
+        "entity": "affirm"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "for sure",
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "value": "sure",
+        "entity": "affirm"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Today is a great day",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "great",
+        "entity": "good"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "feel good",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "good",
+        "entity": "good"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "veryy happy",
+    "entities": [
+      {
+        "start": 6,
+        "end": 11,
+        "value": "happy",
+        "entity": "good"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "worse than ever",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "worse",
+        "entity": "sad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I'm feeling a bit gloomy.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "gloomy",
+        "entity": "sad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I'm anxious",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "anxious",
+        "entity": "sad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I'm so depressed.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "value": "depressed",
+        "entity": "sad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hi",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "hi",
+        "entity": "greet"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "call me vishwesh",
+    "entities": [
+      {
+        "start": 8,
+        "end": 16,
+        "value": "vishwesh",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "niranjan",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "niranjan",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "payal",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "payal",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "alright",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "alright",
+        "entity": "affirm"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "no way",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "no",
+        "entity": "deny"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "not really",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "not",
+        "entity": "deny"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I'm doing good",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "good",
+        "entity": "good"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I am in terrible mood right now",
+    "entities": [
+      {
+        "start": 8,
+        "end": 16,
+        "value": "terrible",
+        "entity": "sad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i am extremely sad",
+    "entities": [
+      {
+        "start": 15,
+        "end": 18,
+        "value": "sad",
+        "entity": "sad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I'm worried so much",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "worried",
+        "entity": "sad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I'm feeling down.",
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "value": "down",
+        "entity": "sad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Don't like this kind of work",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "deny",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.6531310689242713,
+        "value": "Don't",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "good evening",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "evening",
+        "entity": "greet"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I am archita",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "archita",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "you can call me apoorva",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "apoorva",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "mamata",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "mamata",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "yes",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "yes",
+        "entity": "affirm"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I don't think so",
+    "entities": [
+      {
+        "start": 2,
+        "end": 7,
+        "value": "don't",
+        "entity": "deny"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "wonderful",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "wonderful",
+        "entity": "good"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Awesome",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "Awesome",
+        "entity": "good"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I am feeling very bad",
+    "entities": [
+      {
+        "start": 18,
+        "end": 21,
+        "value": "bad",
+        "entity": "sad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i am feeling awful",
+    "entities": [
+      {
+        "start": 13,
+        "end": 18,
+        "value": "awful",
+        "entity": "sad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I'm totally distressed",
+    "entities": [
+      {
+        "start": 12,
+        "end": 22,
+        "value": "distressed",
+        "entity": "sad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I'm really upset these days.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "upset",
+        "entity": "sad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i haven t watched my favorite youtubers in months and it s honestly made my depression so much worse",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sad",
+        "start": 95,
+        "end": 100,
+        "confidence_entity": 0.7542821851481555,
+        "value": "worse",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "good morning",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "morning",
+        "entity": "greet"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "sudarshan",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "sudarshan",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "My name is Ritik",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "Ritik",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "okay",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "okay",
+        "entity": "affirm"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Not at all",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "Not",
+        "entity": "deny"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I am sad",
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "value": "sad",
+        "entity": "sad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I said that i'm happy but actually i'm not happy",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "good",
+        "start": 43,
+        "end": 48,
+        "confidence_entity": 0.5628418136374227,
+        "value": "happy",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "good",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "good",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.7770598305851673,
+        "value": "good",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I don't feel happy",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "good",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.8851494112370911,
+        "value": "happy",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "hey there",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "hey",
+        "entity": "greet"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "my name is aniket",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "aniket",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I am shubhankar",
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "value": "shubhankar",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "oh yess",
+    "entities": [
+      {
+        "start": 3,
+        "end": 7,
+        "value": "yess",
+        "entity": "affirm"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "don't like that",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "don't",
+        "entity": "deny"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "perfect",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "perfect",
+        "entity": "good"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I'm happpyyy",
+    "entities": [
+      {
+        "start": 4,
+        "end": 12,
+        "value": "happpyyy",
+        "entity": "good"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I'm totally irritated..",
+    "entities": [
+      {
+        "start": 12,
+        "end": 21,
+        "value": "irritated",
+        "entity": "sad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I'm too frustrated",
+    "entities": [
+      {
+        "start": 8,
+        "end": 18,
+        "value": "frustrated",
+        "entity": "sad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I am sad",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sad",
+        "start": 5,
+        "end": 8,
+        "confidence_entity": 0.8127690107876353,
+        "value": "sad",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

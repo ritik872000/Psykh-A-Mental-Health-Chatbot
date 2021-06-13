@@ -1,0 +1,651 @@
+version: "2.0"
+
+nlu:
+
+- lookup: greet
+  examples: |
+    - hii
+    - hello
+    - hey
+
+- lookup: name
+  examples: |
+    - ritik
+    - aniket
+    - vishwesh
+    - shubhankar
+    - archita
+    - rahul
+
+
+- lookup: affirm
+  examples: |
+    - yes
+    - yeah
+    - why not
+
+- lookup: deny
+  examples: |
+    - not
+    - no
+    - never
+    - nah
+
+- lookup: good
+  examples: |
+    - good
+   
+
+- lookup: sad
+  examples: |
+    - sad
+    - dull
+    
+
+- lookup: excitement
+  examples: |
+    - great
+    - awesome
+    - amazing
+    
+- intent: greet
+  examples: |  
+    - [hey](greet)
+    - [hello](greet)
+    - [hi](greet)
+    - good [morning](greet)
+    - good [evening](greet)
+    - [hey](greet) there
+
+- intent: question
+  examples: |
+    - how are you?
+    - how r u?
+    - what about you?
+
+
+- intent: give_name
+  examples: |
+    - [ritik](name)
+    - call me [vishwesh](name)
+    - my name is [aniket](name)
+    - I am [archita](name)
+    - you can call me [apoorva](name)
+    - [mamata](name)
+    - I am [shubhankar](name)
+    - [niranjan](name)
+    - [tanay](name)
+    - [payal](name)
+    - [sudarshan](name)
+    - [radhika](name)
+    - My name is [Ritik](name)
+
+- intent: Hindi
+  examples: |
+    - Hindi
+    - hindi
+- intent: english
+  examples: |
+    - english
+    - English
+
+- intent: delight
+  examples: |
+    - watching movies
+    - going on a walk
+    - going for shopping
+    - meaningful work
+    - productive day
+    - workout
+    - family
+    - spending time with my bestfriend
+    - positive thinking
+    - gratitude
+    - giving to others
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you around
+    - see you later
+    - Good night!
+    - cheerio
+    - see you
+    - catch you later
+    - i gotta take off
+    - have a good one
+    - keep in touch 
+    - Imm off
+
+- intent: affirm
+  examples: |
+    - [yes](affirm)
+    - [sure](affirm)
+    - oh [yess](affirm)
+    - for [sure](affirm)
+    - [okay](affirm)
+    - [alright](affirm)
+    - why not
+
+
+- intent: deny
+  examples: |
+    - no
+    - never
+    - I [don't](deny) think so
+    - [don't](deny) like that
+    - [no](deny) way
+    - [not](deny) really
+    - [Not](deny) at all
+
+- intent: mood_great
+  examples: |
+    - very [good](good)
+    - I am feeling very [good](good)
+    - I am feeling [good](good)
+    - I'm [good](good)
+    - Today is a [great](good) day
+    - I am so [happy](good) today
+    - I'm [happy](good)
+    - [Happy](good)
+    - [perfect](good)
+    - very [good](good)
+    - [great](good)
+    - [wonderful](good)
+    - I am feeling very [good](good)
+    - I am [great](good)
+    - I'm [good](good)
+    - feel [good](good)
+    - veryy [happy](good)
+    - Life's [good](good)
+    - [Awesome](good)
+    - Happy to hear that
+    - I'm happy to hear that
+    - I'm so [happy](good) today
+    - I'm fine
+    - I'm perfectly fine
+    - Doing [great](good).
+    - I'm ok
+    - I'm doing [good](good)
+    - Today is really wonderfull day
+    - Feeling [good](good)
+    - feeling [great](good)
+    - I'm [happpyyy](good)
+    - I'm so [happy](good)
+    
+
+- intent: mood_unhappy
+  examples: |
+    - I am [sad](sad)
+    - I am very [sad](sad)
+    - I am unhappy [sad](sad)
+    - I am feeling very [bad](sad)
+    - i am feeling [awful](sad)
+    - I am in [terrible](sad) mood right now
+    - i am extremely [sad](sad)
+    - so [sad](sad)
+    - [worse](sad) than ever
+    - I'm feeling a bit [gloomy](sad).
+    - I'm feeling a little blue right now
+    - I'm [worried](sad) so much
+    - I'm [anxious](sad)
+    - I'm totally [irritated](sad)..
+    - So [gloomy](sad)..
+    - I said that i'm happy but actually i'm not happy
+    - I'm terribly sad today
+    - I'm really disappointed today
+    - I'm so [depressed](sad).
+    - I'm totally [distressed](sad)
+    - I'm too [frustrated](sad)
+    - I'm feeling [down](sad).
+    - I'm [worried](sad)
+    - I'm really [upset](sad) these days.
+   
+- intent: Dontwannatalk
+  examples: |
+    - Don't wanna talk about it!
+    - Don't feel like talking
+    - I dont wanna talk about it
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: excitement
+  examples: |
+    - thats [great](excitement)
+    - [awesome](excitement)
+    - [amazing](excitement)
+
+- intent: family_problems
+  examples: |
+    - I hate my family.
+    - I dont know if I can finish this or not
+    - Too much work
+    - I hate my household
+    - I'm hateful to my family
+    - i don't want to be with my family anymore.
+    - I'm not going to be with my family
+    - I don't want my family to be with me
+    - I wouldn't like to be with my family
+    - I'd like to run away from home
+    - i want to run away from my home
+    - My parent are fighting
+    - I fight with my parents
+    - My parents dont understand me
+    - My parents always undermine me
+    - I think my parents don't like me
+    - I fight with my sister
+    - I fight with my brother
+
+- intent: work_problems
+  examples: |
+    - I have a lot of work to do
+    - exams are coming
+    - I have not studied enough
+    - So many assignments to do
+    - poor communication
+    - conflicting styles
+    - Interpersonal conflict
+    - Communication problems
+    - Gossip
+    - Bullying
+    - Harassment
+    - Discrimination
+    - Low motivation and job satisfaction
+    - Performance issues
+    - Poor job fit
+
+- intent: stress
+  examples: |
+    - i am stressed
+    - going through a tough time
+    - Anxiety
+    - Depression
+    - Difficulty concentrating or making decisions
+    - Fatigue
+    - Headache
+    - Heart palpitations
+    - Mood swings
+    - Muscle tension and pain
+    - Stomach problems
+    
+- intent: boring
+  examples: |
+    - life is boring
+    - I am bored
+    - I have nothing to do
+    - I dont know what to do
+    - I'm so bored right now
+    - I'm so bored
+    - I'm quite bored
+    - I'm not having very much fun right now
+    - I'm not having very much fun
+    - I'm not having fun
+    - I'm freaking bored
+    - I'm bored to death
+    - I'm bored stiff
+    - I'm bored out of my mind
+    - I'm very bored
+    - I'm bored AF
+    - It's been a boring week
+    - I could die from boredom
+    - I can't think of anything I want to do
+    - I can't help it. I'm bored
+    - I can't help but be bored
+    - I am so bored right now
+    - I am so bored
+    - I am bored at work
+    - I am bored
+    - I am always bored
+    - I always seem to be bored
+    - Help! I'm bored.
+    - God, I am so bored
+    - i m so tired
+   
+- intent: cant_focus
+  examples: |
+    - I don't feel like studying
+    - I don't wanna study
+    - What's the point of studying
+    - Why should i study
+    - Focusing too hard
+    - Working on many things at same time
+    - Multitasking
+    - No physical activity
+    - Laziness
+    - Distracted by phone, people, surrounding
+    - Search for reasons to give up
+    - Tired 
+    - Hectic day
+    - Dull on mood 
+    - Too much stress
+    - too much to deal with on my plate
+    - Lack of sleep
+    - Improper sleeping routine
+    - Disturbed routine in life
+    - Lack of motivation
+    - Don't feel like doing it
+    - I do not feel satisfied with this 
+    - Poor job satisfaction
+    - Feeling depressed
+    - I want to distract myself
+    - Don't like this kind of work
+    - Not comfortable with what I am doing
+    - Change in lifestyle
+    - Change in surrounding at workplace
+    - Uncomfortable workspace
+    - Weather is making me feel down, low
+    - being unable to remember things that occurred a short time ago difficulty sitting still
+    - difficulty thinking clearly
+    - frequently losing things or difficulty remembering where things are inability to make decisions
+    - inability to perform complicated tasks
+    - lack of focus
+    - lacking physical or mental energy to concentrate
+    - making careless mistakes
+    - feeling restless
+    - cannot focus on an empty stomach
+    - need something to concentrate on
+    - unusual feelings of tiredness
+    - I know exactly what I need to do, but I can’t bring myself to do it
+    - I know what my objectives are, but I can’t figure out how to get there 
+    - Having trouble Prioritizing What’s Most Important
+    - Emotional Procrastination
+    - Time Management Issues
+    - I cannot manage time
+    - Physical issues
+    - Something is on my mind
+    - I am distracted by
+
+- intent: proj_tension
+  examples: |
+    - I won't complete my project in time
+    - I wont complete my project
+    - I dont know how to do my project
+    - My project is really hard
+    - Risk factors
+    - Fear of boss
+    - Fear of deadlines
+    - ear of failure of project
+    - Improper knowledge 
+    - Insufficient data
+    - lack of proper planning
+    - Lack of finance
+    - no sponsor for project
+    - less accuracy
+    - Unexpected output
+    - Unpredicted difficulties
+    - Unwanted problems
+    - presentation is not upto mark
+    - Inadequate risk management
+    - Project manager lack experience and training
+    - No use of formal methods and strategies
+    - Lack of effective communication
+    - Poor management of expectations
+    - Lack of detailed documentation
+    - Failure to track requirements
+    - Failure to track progress
+    - Lack of detail in the project plans
+    - Inaccurate time and effort estimates
+    - Last moment client changes
+    - Unsatisfied client
+    - - pressure from boss
+    - Pressure to meet the requirements within time
+    - Project data incorrect
+    - Indecisive problems
+    - Cannot make a firm decision
+    - Did not considered this kind of risk
+    - limited finance
+    - Lack of proper instruments
+    - Lack of technology
+    - Insolvable errors
+    - Improper build
+    - Reduced quality of project
+    - Quality factor
+    - Approval for the decisions made
+    - Extra funding
+    - Require more data
+    - Improper research
+    - Inexperienced team members
+    - New team members, team manager
+
+- intent: slight_improvement
+  examples: |
+    - Slighty better than before
+    - better than before
+    - much better than before
+    
+- intent: just_couldn't sleep
+  examples: |
+    - cant sleep
+    - cannot sleep
+    - i have insomnia
+    - I keep thinking on baseless things
+    - My mind is active at night
+    - Something is on my mind
+    - Something is bothering me
+    - I cannot make myself calm down
+    - I keep on thinking on random things
+    - I cannot slow my thoughts
+    - I cannot control my thoughts
+    - i have sleeping disorder
+    - I suffer from insomnia
+    - Change in sleeping environment
+    - change in my sleeping place
+    - I have some medical issues
+    - Suffering from mental issues
+    - I restrict myself from sleeping
+    - Work and study commitments
+    - Deadlines 
+    - Psychological reasons
+    - Short term illness
+    - I am sick
+    - Physical pain
+    - Body pain
+    - Improper diet
+    - Improper eating and drinking habits
+    - I did not had my dinner
+    - I am a night shift worker
+    - i work in shifts
+    - Lack of physical tiredness
+    - No excercise
+    - associated with sugary drinks
+    - Caffeine addict
+    - I consume lot of coffee,tea
+    - Smoking habits
+    - Poor sleep quality
+    - meeting deadlines
+    - a sleeping environment that is noisy or not the right temperature
+    - using electronic devices close to bedtime or keeping them in the bedroom
+    - medical problems, such as depression, sleep apnea, or chronic pain
+    - caring for another person during the night
+    - I need to wake up early tommorrow
+    - Over excited for tommorrow
+    - I am in lot of stress
+    - Too much work load
+    - Excess thought process
+    - Worried about someone
+    - Waiting for someone to come
+    - I am sad
+    - I am gulity about 
+
+
+- intent: feedback
+  examples: |
+    - It could be better
+    - not upto the mark
+    
+- intent: going_crazy
+  examples: |
+    - I’m going crazy
+    - I don't know what I'm doing with my life....I need professional help.everything seems crazzyy
+
+
+- intent: positive_response
+  examples: |
+    - hahahaha
+    - haha
+    - hahaha
+    - ha
+    - that was good one
+    - good one
+    - nice one
+    - i liked it
+    - good
+    - loved it
+    - so funny
+
+- intent: depressed
+  examples: |
+    - I'm depressed
+    - I feel horrible
+    - I'm not myself today
+    - I'm not myself these days
+    - I don't feel happy
+
+- intent: reason_depressed
+  examples: |
+    - feeling worthless as always depression
+    - my fibromyalgia has been really bad lately which is not good for my mental state i feel very overwhelmed anxiety bipolar depression
+    - panic attacks are the worst feeling really sick and still shaking i should be a sleep anxiety depression
+    - honestly depression is kicking my ass lately
+    - at my age all i see is gray is it gray because of my bad eyes or my perspective depression healingjustice
+    - a night where depression is winning depression fml help
+    - sometimes the worst place you can be is in your own head n n quotes worstenemy depression thinktoomuch
+    - when you have doe run the opposite side of you depression
+    - the moment of the day when you have to start to plaster a smile in your face depression
+    - flakejay ring ring depression is here
+    - i wouldn t wish anxiety and depression even on the worst of people it s not fun anxiety depression
+    - tnfryed jesus you just made think that of all the vols v fl games i ve seen i ve never seen a win depression
+    - lament a nsaddened heart nso far amp nyet so near nthe years so ntough amp scarred nthis lonesome nroad nstill feared depression n n poetry poem
+    - bad news fam life is still hard and awful depression anxiety atleastihavebuffy
+    - oh i should just get over my depression and be happy don t you think i ve tried that thousands of times already you re not helping
+    - when health insurance won t cover tms but they let me know they cover ect mentalhealth psychology depression tms ect
+    - pureleine though lately with how bad my depression has been i feel like my body is like just taking what little it can get
+    - in health we did a think about depression and now i feel like i have it
+    - i got diagnosed with severe extreme depression and i didn t know there was a difference between those two lol
+    - i haven t watched my favorite youtubers in months and it s honestly made my depression so much worse
+    - i ve returned from the dead with a desire to clean the apartment and eat something that isn t garbage managing depression
+    - please bear with me i m not twitter savvy in real life i m a facebook person help me gain followers blog selfhelp depression
+    - groovydadad mhchat ty i often conflate the two depression but they are very different this q reminded me of that mhchat
+    - don t let the behavior of others destroy ur inner peace dalai lama owntv healing depression anxiety intuition meditation book
+    - we want to help you with your depression give our office a call to learn how tms may be the treatment you ve been waiting for
+    - if you have been on depression too u shouldn t be judging him and exposing him to everyone but helping him
+    - chibireviews post series depression can be quite bad but it will get better i bet someone will pick the novel soon in the west
+    - the nd step to beating anxiety or depression is realising that it s not about waiting for take action yourself now
+    - simonsssj ellieg onision eugenia cooney he sure as hell helped me with my depression and still does
+
+
+
+- intent: UnMotivated
+  examples: |
+    - I don't feel like doing anything
+    - I'm so unmotivated now a days
+    - I have a very
+
+- intent: mood_idle
+  examples: |
+    - Nothing much
+    - I do not feel like doing anything
+    - I feel idle
+    - nothing happnened
+
+- intent: mood_solitude
+  examples: |
+    - I feel lonely
+    - I feel sad and lonely
+    - I feel lonelyyyy
+    - I am alone
+    - i am alone
+    - i m lone
+
+- intent: gratitude
+  examples: |
+    - thanks dear
+    - Thank you so much for being there
+    - thats fine..thank you
+    - thank you for being there 
+    - yup..thanks 
+    - thnx
+    - nice video ....thanks
+    - thank you dear
+    - thanks
+
+
+- intent: watching_movie
+  examples: |
+    - was watching a movie
+    - Binge watching
+
+- intent: headache
+  examples: | 
+    - head aching
+    - head was paining
+    - migraine problems
+
+- intent: levelone
+  examples: |
+    - day to day issues
+    - simple problems
+    - deadlines of work
+    - time management
+    - little to low stressing events
+    - daily problems
+    - neighbours
+    - pets causing trouble
+    - exams are near
+    - submissions
+  
+- intent: leveltwo
+  examples: |
+    - relationships
+    - daily issues with pressing matters
+    - sensitive  issues
+    - relational clashes
+    - family quarallels
+    - fight with partner
+    - past events
+    - memories of past events
+    - consequences of past events
+    - financial worries
+    - low on money
+    - competition related stress or worries
+    - social disturbance in life
+    - social worries
+    - people talking behind back
+    - fear of social life
+  
+- intent: levelthree
+  examples:  |
+    - health issues
+    - health is not good
+    - work related issues
+    - i am not getting a job
+    - whole family depends on me
+    - dependency issues
+    - fear of new changes
+    - scared of life changing situtions
+    - surrounding environment matters stressing me out
+    - changes in life work habits
+    - low on confidence at any place 
+    - no self confidence
+    - stage fear
+
+- intent: social_media
+  examples: |
+    - was on my phone
+    - on social media 
+    - chatting
+    - scrolling through insta
+  
+- intent: ask_id
+  examples: |
+    - tell me the conversation id
+    - whats my conversation id
+    - tell me session id
+    - please tell my conversation id
+    
