@@ -1,0 +1,187 @@
+
+version: "2.0"
+
+stories:
+
+
+- story: bot_challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_response
+
+- story: about_me
+  steps:
+  - intent: question
+  - action: utter_answer
+
+  
+- story: greet
+  steps:
+  - intent: greet 
+  - action: utter_greet
+  - intent: excitement
+  - action: utter_ask_name
+  - intent: give_name
+  - action: action_receive_name
+  - intent: gratitude
+  - action: utter_response_affirm
+
+
+
+- story: going crazy
+  steps:
+  - intent: going_crazy
+  - action: utter_goingcrazy
+
+
+
+- story: No Motivation
+  steps:
+  - intent: UnMotivated
+  - action: utter_unmotivated
+
+- story: study focus
+  steps:
+  - intent: cant_focus
+  - action: utter_focus
+
+- story: Project tension
+  steps:
+  - intent: proj_tension
+  - action: utter_proj_tension
+
+- story: feeling_sad
+  steps:
+  - intent: mood_unhappy 
+  - action: utter_response_sad
+  - intent: affirm 
+  - action: utter_ask_whats_bothering
+  - intent: deny 
+  - action: utter_console_question
+  - intent: delight 
+  - action: action_receive_delight
+
+- story: family_problems
+  steps:
+  - intent: family_problems 
+  - action: utter_resolve_issue
+  
+- story: work_problems
+  steps:
+  - intent: work_problems 
+  - action: utter_motivation
+
+- story: stress
+  steps:
+  - intent: stress 
+  - action: utter_more
+  - intent: affirm
+  - action: utter_ask_level
+
+- story: level_one
+  steps:
+  - intent: levelone
+  - action: utter_help_levelone
+  - intent: gratitude
+  - action: utter_happy
+
+- story: level_two
+  steps:
+  - intent: leveltwo
+  - action: utter_help_leveltwo
+  
+- story: level_three
+  steps:
+  - intent: levelthree
+  - action: utter_help_levelthree
+
+- story: depressed
+  steps:
+  - intent: depressed
+  - action: utter_whydepressed
+  - intent: reason_depressed
+  - action: utter_resolve_depression
+
+
+- story: boring
+  steps:
+  - intent: boring 
+  - action: utter_suggest
+ 
+- story: positivity
+  steps:
+  - intent: mood_great
+  - action: utter_positivity
+  
+
+
+- story: music suggestion
+  steps:
+
+  - intent: Dontwannatalk
+  - action: utter_music_suggestion
+  - intent: affirm
+  - action: utter_music_language
+  - intent: english
+  - action: utter_eng_music
+  - action: utter_musiclike
+  - or:
+    - intent: Hindi
+  - action: utter_hin_music
+  - action: utter_musiclike
+  
+
+- story: solitude
+  steps:
+  - intent: mood_solitude
+  - action: utter_console
+  - intent: affirm
+  - action: utter_share_positivity
+  - intent: affirm
+  - action: utter_solitude_quotes
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+  - intent: gratitude
+  - action: utter_welcome
+
+
+
+- story: feedback_better
+  steps:
+  - intent: goodbye
+  - action: utter_ask_feedback
+  - intent: mood_great
+  - action: action_receive_feedback
+  - intent: affirm
+  - action: action_get_data
+
+- story: feedback_slight
+  steps:
+  - intent: slight_improvement
+  - action: action_receive_feedback
+  - intent: affirm
+  - action: action_get_data
+
+- story: how much sleep
+  steps:
+  - action: Did_you_sleep
+  - intent: affirm
+  - action: slept_well
+  - intent: deny
+  - action: utter_y_not_sleep
+  - intent: social_media
+  - action: Using_phone
+  - intent: watching_movie
+  - action: utter_movie
+  - intent: just_couldn't sleep
+  - action: utter_couldnt_sleep
+  - intent: headache
+  - action: utter_headache
+
+- story: conversation_id
+  steps:
+  - intent: ask_id
+  - action: action_session_id
+
+
