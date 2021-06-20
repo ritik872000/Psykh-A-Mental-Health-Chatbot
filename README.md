@@ -13,8 +13,6 @@
 ### 5. About
 ![About](https://github.com/ritik872000/Psykh-A-Mental-Health-Chatbot/blob/main/Project-Screenshots/About.png)
 
-## How to Run?
-
 ## Model Comparison
 
 ### 1. Intent Classification Accuracy Comparison
@@ -29,6 +27,6 @@ DIET classifier gives higher accuracy on test set compared to SVM but in terms o
 
 ### 1. Resources: Kaggle, Reddit
 ### 2. No of Intents: 36
-
+### 3. NLU Examples: 1000+
 
 
