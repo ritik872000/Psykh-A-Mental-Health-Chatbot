@@ -1,3 +1,5 @@
+refer to this youtube video in order to know "how to run the project" : https://youtu.be/XMAw_bKTLbA?si=XIRTCmmNn8Db2-ri
+
 # Psykh: Mental Health Chatbot
 
 ## Project Screenshots
